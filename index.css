@@ -1,0 +1,316 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  max-width: 1139px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+.header__wrapper {
+  display: flex;
+}
+
+.header__logo {
+  padding-right: 36px;
+  padding-top: 39px;
+  padding-bottom: 38px;
+}
+
+.header__description {
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+
+.intro {
+  min-width: 1916px;
+  min-height: 840px;
+  background: url(img/helimain.png) no-repeat center;
+  padding-top: 300px;
+}
+
+.intro__title {
+  max-width: 887px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.intro__title span {
+  color: rgba(252, 155, 9, 1);
+}
+
+.button__occupy {
+  width: 304px;
+  height: 68px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/*Блок со стоимостью*/
+.price {
+  margin-top: 29px ;
+  width: 224px;
+  height: 96px;
+  background-color:#FC9B09;;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
+.text{
+  padding: 11px 22px;
+  max-width: 121px;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.summa{
+  max-width: 113px;
+  margin-bottom: 26px;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 53px;
+  color: rgba(255, 255, 255, 1);
+  ;
+}
+
+.percent{
+  width: 31px;
+  height: 36px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 53px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 17px;
+}
+
+.price__block{
+  display: flex;
+  padding-left: 23px;
+  width: 224px;
+  height: 96px;
+  text-align: center;
+}
+
+.wrapper__price{
+ width: 224px;
+ height: 96px;
+ margin-left: 385px;
+ margin-top:29px;
+ margin-bottom: 12px;
+}
+/* Блок со стоимостью закончился/*
+
+
+
+/* Блок с описанем  начался*/
+
+.container{
+  display: flex;
+}
+
+.foto__subtitle{
+  padding-top: 70px;
+  padding-bottom: 18px;
+}
+
+.foto__subtitle-text{
+  width:460px;
+  height: 90px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  color: rgba(55, 55, 63, 1);
+}
+
+.flight__description{
+  padding-top: 18px;
+  padding-bottom: 29px;
+}
+
+.flight__description-text{
+  width: 549px;
+  height: 73px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #37373F;
+}
+
+
+
+.shooting__time{
+  display: flex;
+}
+
+.time{
+  padding-top: 23px;
+  padding-bottom: 18px;
+}
+
+.shooting__time-text{
+  padding-top: 30px;
+  margin-left: 11px;
+}
+
+.number__photos{
+  display: flex;
+}
+
+.camera{
+  padding-top: 16px; ;
+  padding-bottom: 16px;
+}
+
+.number__photos-text{
+  padding-top: 22px;
+  margin-left: 13px;
+}
+
+
+.carta{
+  display: flex;
+}
+
+.map{
+  padding-bottom: 18px;
+  padding-top: 16px;
+}
+
+.carta__text{
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+.question{
+  display: flex;
+}
+
+.sms{
+  padding-bottom: 35px;
+  padding-top: 17px;
+
+}
+
+.question__text{
+  margin-left: 12px;
+  padding-top: 22px;
+}
+
+.reviews{
+  display: flex;
+}
+
+.cup{
+  width: 32px;
+  height: 36px;
+  margin-top: 20px;
+}
+
+.reviews__text{
+  margin-left:12px;
+  margin-top: 32px;
+  margin-bottom: 31px;
+}
+
+.star{
+  width: 118px;
+  height: 17px;
+  margin-left: 14px;
+  margin-top: 34px;
+  margin-bottom: 36px;
+}
+
+.line__box{
+  padding-right: 555px;
+}
+
+.line{
+  width: 569px;
+  border: 0.5px solid #C7C7C7;
+}
+
+.line__box-1{
+  padding-right: 569px;
+}
+
+.line__1{
+  width: 569px;
+  border: 0.5px solid #C7C7C7;
+}
+
+.img__love1{
+  padding-top: 70px;
+
+}
+.love1{
+  width: 554px;
+  height: 374px;
+}
+
+.foto__package{
+  padding-top: 30px;
+}
+
+.foto__text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #37373F;
+}
+
+
+
+
+/* Блок с описанием закончился*/
