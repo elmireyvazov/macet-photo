@@ -81,6 +81,7 @@ body {
 }
 
 .button__occupy {
+  margin-top: 12px;
   width: 304px;
   height: 68px;
   text-align: center;
@@ -93,60 +94,77 @@ body {
   cursor: pointer;
 }
 
-.price {
+.price__conteiner {
+  display: flex;
   margin-top: 29px;
-  width: 224px;
-  height: 96px;
-  background-color: #fc9b09;
-  border-radius: 5px;
   margin-bottom: 12px;
-  justify-content: center;
+  width: 224px;
+  height: 90px;
+  background: #fc9b09;
+  border-radius: 5px;
 }
 
+.summa__block {
+  width: 110px;
+}
 
-.text {
-  padding: 11px 22px;
-  max-width: 121px;
-  margin-bottom: 4px;
+.precent__block {
+  width: 100px;
+}
+
+.cost__box {
+  padding-top: 13px;
+  padding-left: 18px;
+}
+.cost {
   font-weight: 400;
   font-size: 20px;
-  line-height: 30px;
-  color: rgba(255, 255, 255, 1);
+  line-height: 151.16%;
+  color: #ffffff;
 }
 
-.summa {
-  max-width: 113px;
-  margin-bottom: 26px;
+.amount__box {
+  padding-left: 18px;
+}
+
+.amount {
   font-weight: 800;
   font-size: 35px;
-  line-height: 53px;
-  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  color: #ffffff;
 }
 
-.percent {
-  width: 31px;
-  height: 36px;
-  font-size: 35px;
+.crug__box {
+  padding-top: 22px;
+  padding-left: 30px;
+}
+
+.crug {
+  width: 52px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+}
+
+.precent {
+  padding-left: 10px;
+  line-height: 151.16%;
   font-weight: 800;
-  line-height: 53px;
-  color: rgba(255, 255, 255, 1);
-  padding-left: 17px;
+  font-size: 35px;
+  color: #ffffff;
 }
 
-.price__block {
-  display: flex;
-  padding-left: 23px;
-  width: 224px;
-  height: 96px;
-  text-align: center;
+.triangle__block {
+  padding-top: 6px;
+  padding-right: 100px;
 }
 
-.wrapper__price {
-  width: 224px;
-  height: 96px;
-  margin-left: 385px;
-  margin-top: 29px;
-  margin-bottom: 12px;
+.triangle {
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-top: 20px solid #fc9b09;
+  border-radius: 5px;
 }
 
 .container {
@@ -160,10 +178,9 @@ body {
 .container2 {
   margin-top: 70px;
   padding-left: 30px;
-
 }
 
-.love1{
+.love1 {
   width: 554px;
   height: 374px;
   border-radius: 4px;
@@ -184,7 +201,7 @@ body {
 }
 
 .flight__description {
-  padding-top: 18px;
+  padding-top: 5px;
   padding-bottom: 29px;
 }
 
@@ -207,12 +224,11 @@ body {
 
 .shooting__time-text {
   padding-top: 10px;
-  margin-left: 11px;
+  padding-left: 11px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #37373F;
-
+  color: #37373f;
 }
 
 .number__photos {
@@ -221,11 +237,11 @@ body {
 
 .number__photos-text {
   padding-top: 7px;
-  margin-left: 13px;
+  padding-left: 13px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #37373F;
+  color: #37373f;
 }
 
 .carta {
@@ -237,12 +253,12 @@ body {
 }
 
 .carta__text {
-  margin-left: 15px;
+  padding-left: 15px;
   padding-top: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #37373F;
+  color: #37373f;
 }
 
 .question {
@@ -255,12 +271,12 @@ body {
 }
 
 .question__text {
-  margin-left: 12px;
+  padding-left: 12px;
   padding-top: 22px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #37373F;
+  color: #37373f;
 }
 
 .reviews {
@@ -274,19 +290,19 @@ body {
 }
 
 .reviews__text {
-  margin-left: 12px;
-  margin-top: 32px;
+  padding-left: 12px;
+  padding-top: 32px;
   margin-bottom: 31px;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  color: #37373F;
+  color: #37373f;
 }
 
 .star {
   width: 118px;
   height: 17px;
-  margin-left: 14px;
+  padding-left: 14px;
   margin-top: 34px;
   margin-bottom: 36px;
 }
@@ -364,7 +380,7 @@ body {
 }
 
 .show__photos {
-  margin-left: 830px;
+  padding-left: 470px;
 }
 
 .show__ph {
@@ -474,63 +490,55 @@ body {
   border: 0.5px solid #c7c7c7;
 }
 
-.container__service{
+.container__service {
   display: flex;
 }
 
-.container__service1{
-  
+.container__service2 {
+  display: flex;
 }
 
-.container__service2{
-
-}
-
-.marina__conteiner{
-  padding-left: 226px;
-}
-
-.marina{
-  margin-top: 23px;
+.marina {
+  padding-left: 220px;
+  padding-top: 23px;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;  
-  color: #37373F;
+  line-height: 22px;
+  color: #37373f;
 }
 
-.img__marina{
-  width: 580px;
-  height: 600px;
+.img__marina {
+  width: 400px;
+  height: 400px;
 }
 
-.marina__photo-box{
-  padding-left: 40px;
+.marina__picture {
+  padding-left: 226px;
+  padding-top: 68px;
 }
-.marina__photo{
-  margin-top: 7px;
+
+.marina__photo {
+  padding-left: 260px;
+  padding-top: 7px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #37373F;
+  color: #37373f;
 }
 
-.marina__description-box{
-  padding-right: px;
-}
-
-.marina__description{
-  width: 200px;
-  margin-top: 11px;
+.marina__description {
+  padding-left: 200px;
+  padding-top: 11px;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: #5286EC;
+  color: #5286ec;
   text-align: center;
 }
 
-.heart{
-  padding-left: 300px;
-  margin-bottom: 100px;
+.heart__img {
+  padding-top: 55px;
+  padding-right: 70px;
 }
 
 .shooting__text {
@@ -617,7 +625,7 @@ body {
   width: 129px;
   height: 50px;
   padding-top: 40px;
-  padding-left: 250px;
+  padding-left: 230px;
 }
 
 .choose {
@@ -638,13 +646,12 @@ body {
   width: 129px;
   height: 50px;
   padding-top: 40px;
-  padding-left: 75px;
+  padding-left: 60px;
 }
 
 .reviews1 {
   display: flex;
   padding-left: 25px;
-  padding-top: 10px;
 }
 
 .place1 {
@@ -657,8 +664,8 @@ body {
 }
 
 .map__fon {
-  width: 1916px;
-  height: 509px;
+  min-width: 1916px;
+  min-height: 509px;
   margin-top: 82px;
   background: url(img/map_1.png) no-repeat center;
   margin-bottom: 131px;
@@ -838,8 +845,6 @@ body {
   color: #5286ec;
   padding-left: 20px;
 }
-
-/*Раздел с отзывами*/
 
 .people__text {
   margin-bottom: 50px;
@@ -1102,8 +1107,8 @@ body {
   display: flex;
   margin-top: 50px;
   margin-bottom: 15px;
-  width: 1920px;
-  height: 100px;
+  min-width: 1920px;
+  min-height: 100px;
   background: white;
 }
 
@@ -1141,8 +1146,8 @@ body {
 
 .footer__container2 {
   display: flex;
-  width: 1920px;
-  height: 77px;
+  min-width: 1920px;
+  min-height: 77px;
   background: #faf9f8;
 }
 
