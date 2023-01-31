@@ -214,55 +214,29 @@ body {
   color: #37373f;
 }
 
-.shooting__time {
+.block__description {
   display: flex;
+}
+
+.block__icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.block__element {
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #37373f;
 }
 
 .time {
   padding-bottom: 18px;
 }
 
-.shooting__time-text {
-  padding-top: 10px;
-  padding-left: 11px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #37373f;
-}
-
-.number__photos {
-  display: flex;
-}
-
-.number__photos-text {
-  padding-top: 7px;
-  padding-left: 13px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #37373f;
-}
-
-.carta {
-  display: flex;
-}
-
 .map {
   padding-top: 16px;
-}
-
-.carta__text {
-  padding-left: 15px;
-  padding-top: 25px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #37373f;
-}
-
-.question {
-  display: flex;
 }
 
 .sms {
@@ -270,13 +244,20 @@ body {
   padding-top: 17px;
 }
 
+.shooting__time-text {
+  padding-top: 10px;
+}
+
+.number__photos-text {
+  padding-top: 35px;
+}
+
+.carta__text {
+  padding-top: 30px;
+}
+
 .question__text {
-  padding-left: 12px;
-  padding-top: 22px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #37373f;
+  padding-top: 35px;
 }
 
 .reviews {
