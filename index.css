@@ -214,50 +214,23 @@ body {
   color: #37373f;
 }
 
-.block__description {
+.bloc__element {
   display: flex;
 }
 
-.block__icon {
-  display: flex;
-  flex-direction: column;
+.element__icon {
+  width: 35px;
+  height: 33px;
 }
 
-.block__element {
+.element__text {
   padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 30px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: #37373f;
-}
-
-.time {
-  padding-bottom: 18px;
-}
-
-.map {
-  padding-top: 16px;
-}
-
-.sms {
-  padding-bottom: 30px;
-  padding-top: 17px;
-}
-
-.shooting__time-text {
-  padding-top: 10px;
-}
-
-.number__photos-text {
-  padding-top: 35px;
-}
-
-.carta__text {
-  padding-top: 30px;
-}
-
-.question__text {
-  padding-top: 35px;
 }
 
 .reviews {
