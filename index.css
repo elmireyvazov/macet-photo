@@ -96,13 +96,18 @@ body {
 }
 
 .popup{
+  display: none;
   width: 100%;
   height: 100%;
   position: fixed;
-  left:0;
+  left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, .8);
   z-index: 2;
+}
+
+.popup.active{
+  display: block;
 }
 
 .popup__container{
@@ -110,6 +115,112 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.popup__body{
+  margin: auto;
+  width: 615px;
+  height: 887px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.booking{
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  color: #37373F;
+
+}
+
+.popup__input{
+  display: block;
+  width: 420px;
+  height: 44px;
+  border: 1px solid #C7C7C7;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-left: 96px;
+}
+
+.popup__input-1{
+  display: block;
+  width: 420px;
+  height: 44px;
+  border: 1px solid #C7C7C7;
+  border-radius: 3px;
+}
+
+
+.input__container{
+  width: 420px;
+  height: 89px;
+  border: 1px solid #c7c7c7;
+  margin-left: 96px;
+  margin-bottom: 100px;
+}
+
+.popup__subtitle{
+  width:100px;
+  padding-bottom: 10px;
+  padding-left: 96px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #37373F;
+}
+
+.popup__subtitle-1{
+  width: 300px;
+  padding-bottom: 10px;
+  padding-left: 23px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #37373F;
+}
+
+.popup__subtitle-1 span{
+  color: red;
+}
+
+.popup__subtitle span{
+  color: red;
+}
+
+.popup__body input:focus{
+  outline: none;
+}
+
+.booking__btn{
+  cursor: pointer;
+  display: block;
+  width: 390px;
+  height: 72px;
+  border: none;
+  background: #FC9B09;
+  border-radius: 3px;
+  margin-left: 112px;
+}
+
+.booking__btn span{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.popup__close{
+  position: absolute;
+  left: 1221px;
+  bottom: 870px;
+  font-size: 21px;
+  cursor: pointer;
+  color: #B3B3B3;
+}
+
 
 .price__conteiner {
   display: flex;
@@ -119,26 +230,6 @@ body {
   height: 90px;
   background: #fc9b09;
   border-radius: 5px;
-}
-
-.popup__body{
-  margin: auto;
-   width: 500px;
-   background-color: #fff;
-   border-radius: 10px;
-   text-align: center;
-   padding: 100px 15px 110px 15px;
-   position: relative;
-}
-
-.popup__title{
-  width: 439px;
-  height: 25px;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 33px;
-  text-align: center;
-  color: #37373F;
 }
 
 .summa__block {

@@ -65,18 +65,34 @@
           </div>
         </div>
         <div class="wrapper">
-          <button class="button__occupy">Забронировать место</button>
+          <button class="button__occupy" id="open__popup">Забронировать место</button>
         </div>
-        <div class="popup">
+        <div class="popup" id="popup">
           <div class="popup__container">
-            <div class="popup__body">
-              <p class="popup__title">Бронирование</p>
+            <div class="popup__body" id="popup__body">
+              <p class="booking">Бронирование</p>
               <form action="">
-                <input type="text" />
-                <input type="text" />
-                <button></button>
+                <p class="popup__subtitle">Дата<span>*</span></p>
+                <input type="text" class="popup__input" placeholder="Дата">
+                <p class="popup__subtitle">Email<span>*</span></p>
+                <input type="text" class="popup__input" placeholder="Электронная почта">
+                <p class="popup__subtitle">Имя<span>*</span></p>
+                <input type="text" class="popup__input" placeholder="Имя">
+                <p class="popup__subtitle">Фамилия<span>*</span></p>
+                <input type="text" class="popup__input" placeholder="Фамилия">
+                <p class="popup__subtitle">Телефон<span>*</span></p>
+                <input type="text" class="popup__input" placeholder="Телефон">
+                <p class="popup__subtitle-1">Данные карты<span>*</span></p>
+                <div class="input__container">
+                  <input type="text" class="popup__input-1" placeholder="Номер карты">
+                  <div class="input__box">
+                    <input type="text" class="popup__input-1" placeholder="Срок действия">
+                    <div class="vertical"></div>
+                  </div>
+                </div>
+                <button class="booking__btn"><span>Забронировать</span> </button>
               </form>
-              <div class="popup__close">&#10006</div>
+              <div class="popup__close" id="popup__close">&#10006</div>
             </div>
           </div>
         </div>
