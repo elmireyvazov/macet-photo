@@ -84,11 +84,20 @@
                 <input type="text" class="popup__input" placeholder="Телефон">
                 <p class="popup__subtitle-1">Данные карты<span>*</span></p>
                 <div class="input__container">
-                  <input type="text" class="popup__input-1" placeholder="Номер карты">
-                  <div class="input__box">
-                    <input type="text" class="popup__input-1" placeholder="Срок действия">
-                    <div class="vertical"></div>
-                  </div>
+                  <input type="text" placeholder="Номер карты" class="input__box">
+                  <div class="input__description">
+                      <div>
+                          <input type="text" placeholder="Срок действия" class="input__box-1">
+                      </div>
+                      
+                      <div>
+                          <input type="text" placeholder="CVV" class="input__box-1"> 
+                      </div>
+                    </div>
+                </div>
+                <div class="interpreter">
+                  <img src="img/pin.png" alt="">
+                    <p class="interpreter__text">Я согласен с пользовательским <br> соглашением и публичной офертой</p>
                 </div>
                 <button class="booking__btn"><span>Забронировать</span> </button>
               </form>

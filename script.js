@@ -10,3 +10,4 @@ openPopUp.addEventListener('click', function(e){
 closePopUp.addEventListener('click', () => {
     popUp.classList.remove('active');
 })
+
