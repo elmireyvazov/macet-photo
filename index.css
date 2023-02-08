@@ -142,8 +142,25 @@ body {
   border-radius: 3px;
   margin-bottom: 10px;
   margin-left: 96px;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
+.popup__input-1 {
+  background-image: url(img/Calendar1.png);
+  background-position: 380px;
+  background-repeat: no-repeat;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+  display: block;
+  width: 420px;
+  height: 44px;
+  border: 2px solid #c7c7c7;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-left: 96px;
+}
 
 .popup__subtitle {
   width: 100px;
@@ -197,43 +214,32 @@ body {
 
 .input__container {
   width: 419px;
-  height: 62px;
+  height: 90px;
   border: 0.1px solid #c7c7c7;
   margin-left: 95px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .input__description {
   display: flex;
- 
 }
 
 .input__box {
   width: 417px;
-  height: 30px;
+  height: 44px;
   border: 0.1px solid #c7c7c7;
   outline: none;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
 .input__box-1 {
-  width: 209px;
-  height: 30px;
+  width: 208.5px;
+  height: 44px;
   border: 0.1px solid #c7c7c7;
   outline: none;
-}
-
-.interpreter{
-  width: 20px;
-  height: 20px;
-  background-color: #fc9b09;
-  margin-left: 100px;
-  margin-bottom: 45px;
-  
-}
-
-.interpreter__text{
-  width: 396px;
-  height: 40px;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
 .popup__close {
@@ -243,6 +249,27 @@ body {
   font-size: 21px;
   cursor: pointer;
   color: #b3b3b3;
+}
+
+.approval__box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.approval {
+  margin-left: 100px;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fc9b09;
+  border-radius: 2px;
+}
+
+.approval__text {
+  width: 396px;
+  height: 40px;
+  padding-left: 10px;
+  text-align: left;
 }
 
 .price__conteiner {
