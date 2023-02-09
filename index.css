@@ -134,7 +134,16 @@ body {
   color: #37373f;
 }
 
-.popup__input {
+.popup__close {
+  position: absolute;
+  left: 1210px;
+  bottom: 860px;
+  font-size: 21px;
+  cursor: pointer;
+  color: #b3b3b3;
+}
+
+.input__text{
   display: block;
   width: 420px;
   height: 44px;
@@ -144,15 +153,13 @@ body {
   margin-left: 96px;
   padding-left: 20px;
   font-size: 16px;
-}
-
-.popup__input-1 {
+  outline: none ;
   background-image: url(img/Calendar1.png);
   background-position: 380px;
   background-repeat: no-repeat;
-  outline: none;
-  padding-left: 20px;
-  font-size: 16px;
+}
+
+.input__text-1{
   display: block;
   width: 420px;
   height: 44px;
@@ -160,62 +167,29 @@ body {
   border-radius: 3px;
   margin-bottom: 10px;
   margin-left: 96px;
+  padding-left: 20px;
+  font-size: 16px;
+  outline: none ;
 }
 
-.popup__subtitle {
+.data__title{
   width: 100px;
   padding-bottom: 10px;
   padding-left: 96px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
   color: #37373f;
 }
 
-.popup__subtitle-1 {
-  width: 300px;
-  padding-bottom: 10px;
-  padding-left: 23px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #37373f;
-}
-
-.popup__subtitle-1 span {
+.data__title span {
   color: red;
-}
-
-.popup__subtitle span {
-  color: red;
-}
-
-.popup__body input:focus {
-  outline: none;
-}
-
-.booking__btn {
-  cursor: pointer;
-  display: block;
-  width: 390px;
-  height: 72px;
-  border: none;
-  background: #fc9b09;
-  border-radius: 3px;
-  margin-left: 112px;
-}
-
-.booking__btn span {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
 }
 
 .input__container {
   width: 419px;
   height: 90px;
   border: 0.1px solid #c7c7c7;
+  border-radius: 3px;
   margin-left: 95px;
   margin-bottom: 30px;
 }
@@ -242,34 +216,64 @@ body {
   font-size: 16px;
 }
 
-.popup__close {
+.data__title-1{
+  width: 300px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #37373f;
+}
+
+
+
+.data__title-1 span{
+  color: red;
+}
+
+.check{
+  padding-left: 1.2em;
+}
+
+.check__input{
   position: absolute;
-  left: 1210px;
-  bottom: 860px;
-  font-size: 21px;
-  cursor: pointer;
-  color: #b3b3b3;
 }
 
-.approval__box {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.approval {
-  margin-left: 100px;
-  margin-top: 2px;
+.check__input span{
+  position: absolute;
+  margin-left: -1.2em;
   width: 16px;
   height: 16px;
-  background: #fc9b09;
-  border-radius: 2px;
+  background-color: #fc9b09;
 }
 
-.approval__text {
-  width: 396px;
-  height: 40px;
-  padding-left: 10px;
-  text-align: left;
+.check__box{
+  position: absolute;
+  margin-left: -1.2em;
+  width: 16px;
+  height: 16px;
+ 
+}
+
+
+
+.booking__btn {
+  cursor: pointer;
+  display: block;
+  width: 390px;
+  height: 72px;
+  border: none;
+  background: #fc9b09;
+  border-radius: 3px;
+  margin-left: 112px;
+}
+
+.booking__btn span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
 
 .price__conteiner {

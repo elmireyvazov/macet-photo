@@ -71,38 +71,61 @@
           <div class="popup__container">
             <div class="popup__body" id="popup__body">
               <p class="booking">Бронирование</p>
-              <form action="">
-                <p class="popup__subtitle">Дата<span>*</span></p>
-                <input type="text" class="popup__input-1" placeholder="Дата">
-                <p class="popup__subtitle">Email<span>*</span></p>
-                <input type="text" class="popup__input" placeholder="Электронная почта">
-                <p class="popup__subtitle">Имя<span>*</span></p>
-                <input type="text" class="popup__input" placeholder="Имя">
-                <p class="popup__subtitle">Фамилия<span>*</span></p>
-                <input type="text" class="popup__input" placeholder="Фамилия">
-                <p class="popup__subtitle">Телефон<span>*</span></p>
-                <input type="text" class="popup__input" placeholder="Телефон">
-                <p class="popup__subtitle-1">Данные карты<span>*</span></p>
-                <div class="input__container">
-                  <input type="text" placeholder="Номер карты" class="input__box">
-                  <div class="input__description">
-                      <div>
-                          <input type="text" placeholder="Срок действия" class="input__box-1">
-                      </div>
-                      <div>
-                          <input type="text" placeholder="CVV" class="input__box-1"> 
-                      </div>
-                    </div>
+              <form action="#" method="#" id="form">
+                <div>
+                  <label>
+                      <p class="data__title">Дата<span>*</span></p>
+                      <input class="input__text" type="text" name="data" value="14.09.2019" />
+                  </label>
                 </div>
-                <div class="approval__box">
-                  <div class="approval">
-                    <img src="img/pin.png" alt="">
-                  </div>
-                  <div class="approval__text">
-                    <p>Я согласен с пользовательским <br> соглашением и публичной офертой </p>
+                <div>
+                  <label>
+                      <p class="data__title">Email<span>*</span></p>
+                      <input class="input__text-1" type="text" name="email" placeholder="Электронная почта" />
+                  </label>
+                </div>
+                <div>
+                  <label>
+                      <p class="data__title">Имя<span>*</span></p>
+                      <input class="input__text-1" type="text" name="nams" value="Иван" />
+                  </label>
+                </div>
+                <div>
+                  <label>
+                      <p class="data__title">Фамилия<span>*</span></p>
+                      <input class="input__text-1" type="text" name="surname" value="Громов" />
+                  </label>
+                </div>
+                <div>
+                  <label>
+                      <p class="data__title">Телефон<span>*</span></p>
+                      <input class="input__text-1" type="text" name="telephone" placeholder="+7 (905) 184-81-40" />
+                  </label>
+                </div>
+                <div>
+                  <label>
+                      <p class="data__title-1">Даннные карты<span>*</span></p>
+                      <div class="input__container">
+                        <input type="text" placeholder="Номер карты" name="cards" class="input__box">
+                        <div class="input__description">
+                            <div>
+                                <input type="text" placeholder="Срок действия" name="data__cards" class="input__box-1">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="CVV" name="cvv__cards" class="input__box-1"> 
+                            </div>
+                          </div>
+                      </div>
+                  </label>
+                  <label class="check">
+                    <input class="check__input" type="checkbox"  checked >
+                    <span class="check__input"></span>
+                    Я согласен с пользовательским <br> соглашением и публичной офертой
+                  </label>
+                  <div>
+                    <button class="booking__btn" type="submit"> <span>Забронировать</span> </button>
                   </div>
                 </div>
-                <button class="booking__btn"><span>Забронировать</span> </button>
               </form>
               <div class="popup__close" id="popup__close">&#10006</div>
             </div>
