@@ -81,7 +81,7 @@
                 <div>
                   <label>
                       <p class="data__title">Email<span>*</span></p>
-                      <input class="input__text-1" type="text" name="email" placeholder="Электронная почта" />
+                      <input  class="input__text-1" type="text" name="email" placeholder="Электронная почта" />
                   </label>
                 </div>
                 <div>
@@ -117,13 +117,17 @@
                           </div>
                       </div>
                   </label>
-                  <label class="check">
-                    <input class="check__input" type="checkbox"  checked >
-                    <span class="check__input"></span>
-                    Я согласен с пользовательским <br> соглашением и публичной офертой
-                  </label>
+                  <div class="agreed__box">
+                    <div class="checkbox__box">
+                      <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked>
+                      <label  for="happy"></label>
+                    </div>
+                    <div>
+                      <p class="agreed__text">Я согласен с пользовательским <br> соглашением и публичной офертой</p>
+                    </div>
+                  </div>
                   <div>
-                    <button class="booking__btn" type="submit"> <span>Забронировать</span> </button>
+                    <button  class="booking__btn" type="submit"> <span>Забронировать</span> </button>
                   </div>
                 </div>
               </form>

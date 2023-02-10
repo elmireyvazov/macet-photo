@@ -143,7 +143,7 @@ body {
   color: #b3b3b3;
 }
 
-.input__text{
+.input__text {
   display: block;
   width: 420px;
   height: 44px;
@@ -153,13 +153,13 @@ body {
   margin-left: 96px;
   padding-left: 20px;
   font-size: 16px;
-  outline: none ;
+  outline: none;
   background-image: url(img/Calendar1.png);
   background-position: 380px;
   background-repeat: no-repeat;
 }
 
-.input__text-1{
+.input__text-1 {
   display: block;
   width: 420px;
   height: 44px;
@@ -169,10 +169,10 @@ body {
   margin-left: 96px;
   padding-left: 20px;
   font-size: 16px;
-  outline: none ;
+  outline: none;
 }
 
-.data__title{
+.data__title {
   width: 100px;
   padding-bottom: 10px;
   padding-left: 96px;
@@ -216,7 +216,7 @@ body {
   font-size: 16px;
 }
 
-.data__title-1{
+.data__title-1 {
   width: 300px;
   padding-bottom: 10px;
   padding-left: 30px;
@@ -226,37 +226,51 @@ body {
   color: #37373f;
 }
 
-
-
-.data__title-1 span{
+.data__title-1 span {
   color: red;
 }
 
-.check{
-  padding-left: 1.2em;
+.checkbox__box {
+  padding-left: 93px;
 }
 
-.check__input{
-  position: absolute;
+.agreed__box {
+  display: flex;
+  margin-bottom: 25px;
 }
 
-.check__input span{
+.agreed__text {
+  text-align: left;
+  margin-left: 4px;
+}
+
+.custom-checkbox {
   position: absolute;
-  margin-left: -1.2em;
-  width: 16px;
-  height: 16px;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.4em;
+  margin-top: 0.1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox:checked + label::before {
+  border-color: #fc9b09;
   background-color: #fc9b09;
+  background-image: url("img/pin.png");
 }
-
-.check__box{
-  position: absolute;
-  margin-left: -1.2em;
-  width: 16px;
-  height: 16px;
- 
-}
-
-
 
 .booking__btn {
   cursor: pointer;

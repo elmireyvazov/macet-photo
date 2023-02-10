@@ -1,47 +1,31 @@
-const openPopUp = document.getElementById('open__popup');
-const closePopUp = document.getElementById('popup__close');
-const popUp = document.getElementById('popup')
+const form = document.getElementById("form");
+const openPopUp = document.getElementById("open__popup");
+const closePopUp = document.getElementById("popup__close");
+const popUp = document.getElementById("popup");
 
-openPopUp.addEventListener('click', function(e){
-    e.preventDefault();
-    popUp.classList.add('active');
-})
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const result = {
+    date: e.target[0].value,
+    email: e.target[1].value,
+    firstName: e.target[2].value,
+    secondName: e.target[3].value,
+    phone: e.target[4].value,
+    cardInfo: {
+      number: e.target[5].value,
+      expirationDate: e.target[6].value,
+      cvv: e.target[7].value,
+    },
+    agreed: e.target[8].value,
+  };
+  console.log(result);
+});
 
-closePopUp.addEventListener('click', () => {
-    popUp.classList.remove('active');
-})
+openPopUp.addEventListener("click", function (e) {
+  e.preventDefault();
+  popUp.classList.add("active");
+});
 
-const form = document.getElementById('form');
-form.addEventListener('submit', getFormValue);
-
-function getFormValue(event) {
-    event.preventDefault();
-
-    data = form.querySelector('[name="data"]'), 
-    email = form.querySelector('[name="email"]'), 
-    nam = form.querySelector('[name="nams"]'), 
-    plan = form.querySelector('[name="surname"]'); 
-    telephone = form.querySelector('[name="telephone"]'); 
-    cards = form.querySelector('[name="cards"]');
-    data__cards = form.querySelector('[name="data__cards"]');
-    cvv__cards = form.querySelector('[name="cvv__cards"]');
-    terms = form.querySelector('[name="terms"]')
-}
-
-    const data = {
-        data: data.value,
-        email: email.value,
-        nams: nams.value,
-        surname: surname.value,
-        telephone: telephone.value,
-        cards: cards.value,
-        data__cards: data__cards.value,
-        cvv__cards: cvv__cards.value,
-        terms: terms.value
-    };
-
-    console.log(data);
-
-
-
-
+closePopUp.addEventListener("click", () => {
+  popUp.classList.remove("active");
+});
